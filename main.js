@@ -4,7 +4,7 @@ const signPageUrl = "https://www.hifiti.com/sg_sign.htm";
 const responseSuccessCode = "0";
 
 async function checkIn(account) {
-  console.log(`【${account.name}】: 开始签到...`);
+  console.log(`【${account.name}】: 开始签到....`);
 
   const response = await fetch(signPageUrl, {
     method: "POST",
